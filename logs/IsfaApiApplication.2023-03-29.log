@@ -1,0 +1,1360 @@
+11:49:56.035 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+11:49:56.040 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 6508 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+11:49:56.043 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+11:49:57.297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:49:57.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 14 JPA repository interfaces.
+11:49:58.116 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+11:49:58.130 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+11:49:58.133 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:49:58.133 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11:49:58.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:49:58.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2235 ms
+11:49:58.521 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:49:58.590 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+11:49:58.817 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:49:58.957 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:50:01.359 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:50:01.411 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+11:50:02.748 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+11:50:02.761 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+11:50:02.773 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:50:02.824 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+11:50:02.832 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:50:02.842 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+11:50:02.848 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+11:50:02.856 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:50:02.866 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+11:50:02.872 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+11:50:02.880 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+11:50:02.888 [main] INFO  com.isfa.models.User - User no-args cons executing
+11:50:14.191 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:50:14.201 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:50:15.278 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:50:15.429 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+11:50:15.435 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+11:50:15.760 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+11:50:15.800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+11:50:16.148 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 20.583 seconds (JVM running for 21.399)
+11:54:49.391 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:54:49.391 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:54:49.396 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+11:54:49.428 [http-nio-9000-exec-2] INFO  c.i.l.c.LeaveBalanceInfoController - GetEmpLeaveDetailService Controller getEmpLeaveDetails() executing
+11:54:50.002 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:54:50.020 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:54:50.020 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:54:50.290 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.290 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.291 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.291 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.291 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.291 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.292 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.292 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.292 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.293 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.293 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.293 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.293 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.294 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.294 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.294 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.295 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.295 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.295 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:54:50.917 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:54:51.884 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:54:52.917 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:55:04.950 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:55:05.509 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.509 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.510 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:05.511 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:55:08.416 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:55:08.416 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:55:08.416 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:55:08.416 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:55:08.417 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+12:29:57.098 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:29:57.282 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+12:29:57.282 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:29:57.287 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:29:57.295 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+12:29:57.461 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+12:29:57.475 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:29:57.484 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:29:57.490 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:29:59.265 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+12:29:59.270 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 19968 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+12:29:59.271 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+12:29:59.987 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:30:00.085 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 14 JPA repository interfaces.
+12:30:00.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+12:30:00.668 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+12:30:00.669 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:30:00.669 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:30:00.828 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:30:00.828 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1516 ms
+12:30:00.990 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:30:01.046 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+12:30:01.195 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:30:01.339 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:30:02.155 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:30:02.196 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+12:30:02.932 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+12:30:02.960 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+12:30:02.968 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+12:30:02.978 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+12:30:02.985 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:30:02.993 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+12:30:02.998 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+12:30:03.004 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+12:30:03.011 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+12:30:03.016 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+12:30:03.021 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+12:30:03.025 [main] INFO  com.isfa.models.User - User no-args cons executing
+12:30:04.312 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:30:04.327 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:30:05.128 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:30:05.226 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+12:30:05.229 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+12:30:05.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+12:30:05.539 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+12:30:05.821 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 6.86 seconds (JVM running for 7.466)
+12:37:04.956 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:37:04.956 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:37:04.960 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+12:37:05.031 [http-nio-9000-exec-2] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+12:37:05.055 [http-nio-9000-exec-2] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+12:37:05.055 [http-nio-9000-exec-2] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'leaveTypeRequest' on field 'icon': rejected value [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fe9db88]; codes [typeMismatch.leaveTypeRequest.icon,typeMismatch.icon,typeMismatch.java.lang.String,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [leaveTypeRequest.icon,icon]; arguments []; default message [icon]]; default message [Failed to convert property value of type 'org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile' to required type 'java.lang.String' for property 'icon'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile' to required type 'java.lang.String' for property 'icon': no matching editors or conversion strategy found]
+
+
+12:37:05.055 [http-nio-9000-exec-2] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+12:42:33.059 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:42:33.240 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+12:42:33.240 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:42:33.243 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:42:33.247 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+12:42:33.272 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+12:42:33.281 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:42:33.282 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:42:33.287 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:42:35.206 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+12:42:35.212 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 20380 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+12:42:35.213 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+12:42:36.030 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:42:36.116 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 14 JPA repository interfaces.
+12:42:36.701 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+12:42:36.713 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+12:42:36.714 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:42:36.714 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:42:36.896 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:42:36.896 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1638 ms
+12:42:37.095 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:42:37.193 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+12:42:37.434 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:42:37.584 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:42:38.398 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:42:38.447 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+12:42:39.275 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+12:42:39.293 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+12:42:39.300 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+12:42:39.315 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+12:42:39.324 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:42:39.333 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+12:42:39.340 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+12:42:39.348 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+12:42:39.357 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+12:42:39.363 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+12:42:39.370 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+12:42:39.377 [main] INFO  com.isfa.models.User - User no-args cons executing
+12:42:40.817 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:42:40.838 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:42:42.350 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:42:42.498 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+12:42:42.502 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+12:42:42.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+12:42:42.942 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+12:42:43.274 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 8.449 seconds (JVM running for 9.132)
+12:42:46.814 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:42:46.814 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:42:46.819 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+12:42:46.886 [http-nio-9000-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /api/createleaveType/21
+12:42:54.212 [http-nio-9000-exec-3] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+12:42:54.237 [http-nio-9000-exec-3] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+12:42:54.238 [http-nio-9000-exec-3] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'leaveTypeRequest' on field 'icon': rejected value [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@27a67c1c]; codes [typeMismatch.leaveTypeRequest.icon,typeMismatch.icon,typeMismatch.java.lang.String,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [leaveTypeRequest.icon,icon]; arguments []; default message [icon]]; default message [Failed to convert property value of type 'org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile' to required type 'java.lang.String' for property 'icon'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile' to required type 'java.lang.String' for property 'icon': no matching editors or conversion strategy found]
+
+
+12:42:54.239 [http-nio-9000-exec-3] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+12:43:06.075 [http-nio-9000-exec-5] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+12:43:06.077 [http-nio-9000-exec-5] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave executing
+12:43:06.078 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType executing
+12:43:06.078 [http-nio-9000-exec-5] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj executing
+12:43:06.078 [http-nio-9000-exec-5] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:43:06.078 [http-nio-9000-exec-5] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj completed
+12:43:06.078 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File name executed
+12:43:06.081 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File full path executed
+12:43:06.081 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - Make directory
+12:43:06.092 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File copied
+12:43:06.291 [http-nio-9000-exec-5] INFO  com.isfa.models.User - User no-args cons executing
+12:43:06.409 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:43:06.725 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:43:06.727 [http-nio-9000-exec-5] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+12:43:06.727 [http-nio-9000-exec-5] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+12:43:06.727 [http-nio-9000-exec-5] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType completed
+12:43:06.727 [http-nio-9000-exec-5] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Service Saving New Leave completed
+12:43:06.727 [http-nio-9000-exec-5] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave completed
+12:44:41.077 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+12:44:41.079 [http-nio-9000-exec-8] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave executing
+12:44:41.080 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType executing
+12:44:41.081 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj executing
+12:44:41.081 [http-nio-9000-exec-8] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:44:41.081 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj completed
+12:44:41.081 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File name executed
+12:44:41.081 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File full path executed
+12:44:41.090 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File copied
+12:44:41.257 [http-nio-9000-exec-8] INFO  com.isfa.models.User - User no-args cons executing
+12:44:41.377 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType completed
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Service Saving New Leave completed
+12:44:41.695 [http-nio-9000-exec-8] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave completed
+12:47:17.936 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:47:18.138 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+12:47:18.138 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:47:18.140 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:47:18.144 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+12:47:18.148 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+12:47:18.158 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:47:18.159 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:47:18.164 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:47:20.092 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+12:47:20.096 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 17840 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+12:47:20.097 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+12:47:20.881 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:47:20.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 14 JPA repository interfaces.
+12:47:21.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+12:47:21.514 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+12:47:21.515 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:47:21.515 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:47:21.652 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:47:21.653 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1510 ms
+12:47:21.814 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:47:21.858 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+12:47:21.987 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:47:22.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:47:22.805 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:47:22.839 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+12:47:23.476 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+12:47:23.495 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+12:47:23.505 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+12:47:23.516 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+12:47:23.525 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:47:23.534 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+12:47:23.543 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+12:47:23.573 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+12:47:23.582 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+12:47:23.590 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+12:47:23.595 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+12:47:23.602 [main] INFO  com.isfa.models.User - User no-args cons executing
+12:47:24.787 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:47:24.794 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:47:25.698 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:47:25.819 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+12:47:25.822 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+12:47:26.126 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+12:47:26.149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+12:47:26.506 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 6.786 seconds (JVM running for 7.461)
+12:47:50.012 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:47:50.012 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:47:50.038 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+12:47:50.174 [http-nio-9000-exec-2] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+12:47:50.197 [http-nio-9000-exec-2] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave executing
+12:47:50.198 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType executing
+12:47:50.198 [http-nio-9000-exec-2] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj executing
+12:47:50.198 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+12:47:50.198 [http-nio-9000-exec-2] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj completed
+12:47:50.198 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File name executed
+12:47:50.206 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File full path executed
+12:47:50.213 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File copied
+12:47:50.657 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+12:47:51.048 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:47:52.421 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+12:47:52.422 [http-nio-9000-exec-2] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+12:47:52.422 [http-nio-9000-exec-2] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+12:47:52.423 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType completed
+12:47:52.423 [http-nio-9000-exec-2] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Service Saving New Leave completed
+12:47:52.423 [http-nio-9000-exec-2] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Saving New Leave completed
+13:01:53.099 [http-nio-9000-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for PUT /api/createLeaveType/24/22
+13:02:24.394 [http-nio-9000-exec-6] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+13:02:24.396 [http-nio-9000-exec-6] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Updating Existing Leave executing
+13:02:24.397 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Updating Existing LeaveType executing
+13:02:24.397 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Updating Existing LeaveType executing
+13:02:44.422 [http-nio-9000-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection ConnectionID:2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+13:02:44.425 [http-nio-9000-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+13:02:44.425 [http-nio-9000-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 20025ms.
+13:02:44.426 [http-nio-9000-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - The connection is closed.
+13:02:44.433 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+13:02:44.433 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+
+
+13:02:44.433 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+13:19:59.945 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.BaseRequest - BaseRequest constructor executing..
+13:19:59.949 [http-nio-9000-exec-8] INFO  c.i.c.l.c.LeaveTypeController - LeaveType Controller Updating Existing Leave executing
+13:19:59.949 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Updating Existing LeaveType executing
+13:19:59.949 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Updating Existing LeaveType executing
+13:20:00.917 [http-nio-9000-exec-8] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+13:20:01.526 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id completed
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType exists at provided id...in order to update
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType executing
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj executing
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.leave.model.LeaveTypeRequest - LeaveTypeRequest method converting LeaveTypeRequest obj to LeaveType obj completed
+13:20:01.527 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File name executed
+13:20:01.529 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File full path executed
+13:20:01.541 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - File copied
+13:20:02.139 [http-nio-9000-exec-8] INFO  com.isfa.models.User - User no-args cons executing
+13:20:02.959 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+13:20:04.323 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Saving New LeaveType executing
+13:20:04.323 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+13:20:04.323 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+13:20:04.323 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Saving New LeaveType completed
+13:20:04.324 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Updating Existing LeaveType completed
+14:29:54.323 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s498ms267µs500ns).
+14:39:26.339 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:39:26.555 [RMI TCP Connection(113)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+14:39:26.555 [RMI TCP Connection(113)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:39:26.563 [RMI TCP Connection(113)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:39:26.571 [RMI TCP Connection(113)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+14:39:26.582 [RMI TCP Connection(113)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+14:39:26.600 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:39:26.608 [RMI TCP Connection(113)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:39:26.618 [RMI TCP Connection(113)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:39:45.489 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+14:39:45.497 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 19364 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+14:39:45.498 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+14:39:46.328 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:39:46.420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 14 JPA repository interfaces.
+14:39:46.992 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+14:39:47.005 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+14:39:47.006 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:39:47.007 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:39:47.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:39:47.216 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1679 ms
+14:39:47.406 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:39:47.491 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+14:39:47.678 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:39:47.830 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:39:49.595 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:39:49.643 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+14:39:50.517 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+14:39:50.534 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+14:39:50.545 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+14:39:50.564 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+14:39:50.574 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:39:50.586 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+14:39:50.594 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+14:39:50.603 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+14:39:50.612 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+14:39:50.619 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+14:39:50.628 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+14:39:50.637 [main] INFO  com.isfa.models.User - User no-args cons executing
+14:39:53.132 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:39:53.153 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:39:54.124 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:39:54.256 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+14:39:54.260 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+14:39:54.539 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+14:39:54.571 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+14:39:54.881 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.767 seconds (JVM running for 10.526)
+14:41:04.928 [http-nio-9000-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:41:04.928 [http-nio-9000-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:41:04.934 [http-nio-9000-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+14:41:04.971 [http-nio-9000-exec-3] INFO  c.i.c.l.c.LeaveTypeController - Leave Type Controller Getting Leave By Id executing
+14:41:04.971 [http-nio-9000-exec-3] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id executing
+14:41:04.971 [http-nio-9000-exec-3] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id executing
+14:41:05.336 [http-nio-9000-exec-3] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:41:05.533 [http-nio-9000-exec-3] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id completed
+14:41:05.533 [http-nio-9000-exec-3] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType at provided id exists 
+14:41:05.546 [http-nio-9000-exec-3] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id completed
+14:44:51.929 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:44:52.145 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+14:44:52.145 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:44:52.147 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:44:52.153 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+14:44:52.158 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+14:44:52.166 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:44:52.168 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:44:52.175 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:44:54.132 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+14:44:54.139 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 13164 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+14:44:54.141 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+14:44:54.889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:44:54.966 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 14 JPA repository interfaces.
+14:44:55.466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+14:44:55.475 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+14:44:55.476 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:44:55.476 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:44:55.583 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:44:55.583 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1397 ms
+14:44:55.715 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:44:55.749 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+14:44:55.855 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:44:55.932 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:44:57.405 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:44:57.434 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+14:44:58.119 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+14:44:58.132 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+14:44:58.143 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+14:44:58.176 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+14:44:58.188 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:44:58.199 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+14:44:58.207 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+14:44:58.217 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+14:44:58.227 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+14:44:58.234 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+14:44:58.244 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+14:44:58.253 [main] INFO  com.isfa.models.User - User no-args cons executing
+14:45:00.442 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:45:00.452 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:45:01.269 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:45:01.382 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+14:45:01.387 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+14:45:01.650 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+14:45:01.672 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+14:45:01.955 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 8.189 seconds (JVM running for 8.87)
+14:45:31.618 [http-nio-9000-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:45:31.619 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:45:31.625 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+14:45:31.670 [http-nio-9000-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/getyLeaveType/24
+14:45:39.416 [http-nio-9000-exec-2] INFO  c.i.c.l.c.LeaveTypeController - Leave Type Controller Getting Leave By Id executing
+14:45:39.417 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id executing
+14:45:39.418 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id executing
+14:45:39.773 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:45:40.274 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id completed
+14:45:40.275 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType at provided id exists 
+14:45:40.278 [http-nio-9000-exec-2] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+14:45:40.278 [http-nio-9000-exec-2] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+14:45:40.279 [http-nio-9000-exec-2] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id completed
+14:52:01.596 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:52:01.802 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+14:52:01.803 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:52:01.804 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:52:01.809 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+14:52:01.815 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+14:52:01.845 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:52:01.849 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:52:01.856 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:52:03.785 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+14:52:03.789 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 20380 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+14:52:03.790 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+14:52:04.586 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:52:04.672 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 14 JPA repository interfaces.
+14:52:05.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+14:52:05.160 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+14:52:05.160 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:52:05.160 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:52:05.282 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:52:05.283 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1447 ms
+14:52:05.435 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:52:05.471 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+14:52:05.581 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:52:05.661 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:52:06.758 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:52:06.793 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+14:52:07.614 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+14:52:07.633 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+14:52:07.644 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+14:52:07.659 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+14:52:07.669 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:52:07.686 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+14:52:07.694 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+14:52:07.722 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+14:52:07.732 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+14:52:07.741 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+14:52:07.748 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+14:52:07.756 [main] INFO  com.isfa.models.User - User no-args cons executing
+14:52:09.789 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:52:09.799 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:52:10.689 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:52:10.835 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+14:52:10.839 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+14:52:11.117 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+14:52:11.140 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+14:52:11.431 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 8.008 seconds (JVM running for 8.67)
+14:52:15.052 [http-nio-9000-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:15.053 [http-nio-9000-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:52:15.059 [http-nio-9000-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+14:52:15.130 [http-nio-9000-exec-6] INFO  c.i.c.l.c.LeaveTypeController - Leave Type Controller Getting Leave By Id executing
+14:52:15.131 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id executing
+14:52:15.131 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id executing
+14:52:15.532 [http-nio-9000-exec-6] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:52:15.689 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id completed
+14:52:15.690 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType at provided id exists 
+14:52:15.694 [http-nio-9000-exec-6] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id completed
+14:52:15.801 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+14:52:15.802 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.isfa.clientadminpanel.leave.response.LeaveTypeDTO<java.lang.Object>]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Direct self-reference leading to cycle (through reference chain: com.isfa.clientadminpanel.leave.response.LeaveTypeDTO["data"])
+
+
+14:52:15.802 [http-nio-9000-exec-6] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+14:55:12.576 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:55:12.773 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+14:55:12.774 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:55:12.777 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:55:12.780 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+14:55:12.786 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+14:55:12.798 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:55:12.800 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:55:12.808 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:55:14.680 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 15692 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+14:55:14.680 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+14:55:14.683 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+14:55:15.453 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:55:15.530 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 14 JPA repository interfaces.
+14:55:16.023 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+14:55:16.033 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+14:55:16.034 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:55:16.034 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:55:16.155 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:55:16.156 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1427 ms
+14:55:16.298 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:55:16.335 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+14:55:16.441 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:55:16.515 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:55:17.831 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:55:17.860 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+14:55:18.534 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+14:55:18.551 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+14:55:18.578 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+14:55:18.600 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+14:55:18.610 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:55:18.622 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+14:55:18.632 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+14:55:18.641 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+14:55:18.653 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+14:55:18.660 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+14:55:18.668 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+14:55:18.675 [main] INFO  com.isfa.models.User - User no-args cons executing
+14:55:20.147 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:55:20.156 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:55:21.062 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:55:21.174 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+14:55:21.178 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+14:55:21.448 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+14:55:21.474 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+14:55:21.784 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 7.458 seconds (JVM running for 8.11)
+14:55:24.710 [http-nio-9000-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:55:24.710 [http-nio-9000-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:55:24.716 [http-nio-9000-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+14:55:24.785 [http-nio-9000-exec-8] INFO  c.i.c.l.c.LeaveTypeController - Leave Type Controller Getting Leave By Id executing
+14:55:24.785 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id executing
+14:55:24.785 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id executing
+14:55:25.160 [http-nio-9000-exec-8] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+14:55:25.355 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Repository Getting LeaveType By Id completed
+14:55:25.355 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType at provided id exists 
+14:55:25.361 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj executing
+14:55:25.361 [http-nio-9000-exec-8] INFO  c.i.c.l.response.LeaveTypeResponse - LeaveTypeResponse method converting LeaveType obj to LeaveTypeResponse obj completed
+14:55:25.361 [http-nio-9000-exec-8] INFO  c.i.c.l.service.LeaveTypeServiceImpl - LeaveType Service Getting LeaveType By Id completed
+15:23:21.456 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+15:23:21.722 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+15:23:21.722 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:23:21.724 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+15:23:21.727 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+15:23:21.731 [RMI TCP Connection(30)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+15:23:21.741 [RMI TCP Connection(30)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:23:21.743 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:23:21.748 [RMI TCP Connection(30)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:48:37.717 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+16:48:37.717 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 7676 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+16:48:37.734 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+16:48:38.997 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:48:39.142 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 15 JPA repository interfaces.
+16:48:40.260 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+16:48:40.275 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+16:48:40.276 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:48:40.277 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:48:40.609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:48:40.610 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2786 ms
+16:48:40.949 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:48:41.011 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+16:48:41.277 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:48:41.412 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:48:43.215 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:48:43.296 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+16:48:44.767 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+16:48:44.831 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+16:48:44.846 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+16:48:44.869 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+16:48:44.879 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+16:48:44.895 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+16:48:44.928 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+16:48:44.941 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+16:48:44.954 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+16:48:44.964 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+16:48:44.975 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+16:48:44.987 [main] INFO  com.isfa.models.User - User no-args cons executing
+16:48:47.819 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:48:47.836 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:48:49.569 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:48:49.781 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+16:48:49.790 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+16:48:50.414 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+16:48:50.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+16:48:51.038 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 13.946 seconds (JVM running for 15.428)
+16:49:41.530 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:49:41.530 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:49:41.532 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:51:47.240 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+16:51:47.510 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+16:51:47.511 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:51:47.515 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+16:51:47.520 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+16:51:47.528 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+16:51:47.538 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:51:47.542 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:51:47.549 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:51:50.066 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+16:51:50.080 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 2764 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+16:51:50.081 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+16:51:51.199 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:51:51.337 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 15 JPA repository interfaces.
+16:51:52.181 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+16:51:52.197 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+16:51:52.198 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:51:52.199 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:51:52.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:51:52.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2277 ms
+16:51:52.651 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:51:52.753 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+16:51:53.038 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:51:53.216 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:51:54.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:51:54.956 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+16:51:56.955 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+16:51:56.995 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+16:51:57.020 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+16:51:57.064 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+16:51:57.087 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+16:51:57.116 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+16:51:57.176 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+16:51:57.198 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+16:51:57.219 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+16:51:57.234 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+16:51:57.252 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+16:51:57.272 [main] INFO  com.isfa.models.User - User no-args cons executing
+16:51:59.141 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:59.178 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:52:01.844 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:52:02.162 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+16:52:02.169 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+16:52:03.052 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+16:52:03.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+16:52:04.068 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 14.483 seconds (JVM running for 15.503)
+16:53:12.812 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:53:12.815 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:53:12.823 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+16:54:10.466 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+16:54:10.769 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+16:54:10.769 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:54:10.771 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+16:54:10.778 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+16:54:10.786 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+16:54:10.800 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:54:10.803 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:54:10.808 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:54:13.566 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 18996 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+16:54:13.573 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+16:54:13.574 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+16:54:14.743 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:54:14.908 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 15 JPA repository interfaces.
+16:54:15.823 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+16:54:15.841 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+16:54:15.842 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:54:15.842 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:54:16.106 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:54:16.106 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2467 ms
+16:54:16.370 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:54:16.485 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+16:54:16.843 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:54:17.070 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:54:18.754 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:54:18.840 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+16:54:20.955 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+16:54:20.995 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+16:54:21.019 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+16:54:21.065 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+16:54:21.087 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+16:54:21.114 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+16:54:21.183 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+16:54:21.203 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+16:54:21.222 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+16:54:21.237 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+16:54:21.254 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+16:54:21.271 [main] INFO  com.isfa.models.User - User no-args cons executing
+16:54:23.414 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:54:23.440 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:54:24.827 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:54:25.003 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+16:54:25.007 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+16:54:25.420 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+16:54:25.473 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+16:54:25.950 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 12.955 seconds (JVM running for 14.045)
+17:02:22.177 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:02:22.404 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+17:02:22.405 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:02:22.413 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+17:02:22.442 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+17:02:22.460 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:02:22.463 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:02:22.473 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:02:24.634 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+17:02:24.643 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 10768 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+17:02:24.645 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+17:02:25.561 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:02:25.666 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 15 JPA repository interfaces.
+17:02:26.312 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+17:02:26.327 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+17:02:26.328 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:02:26.328 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:02:26.512 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:02:26.513 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1811 ms
+17:02:26.680 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:02:26.727 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+17:02:26.870 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:02:26.970 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:02:28.227 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:02:28.267 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+17:02:29.100 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+17:02:29.118 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+17:02:29.129 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+17:02:29.149 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+17:02:29.162 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+17:02:29.174 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+17:02:29.198 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+17:02:29.210 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+17:02:29.219 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+17:02:29.230 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+17:02:29.238 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+17:02:29.247 [main] INFO  com.isfa.models.User - User no-args cons executing
+17:02:31.864 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:02:31.881 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:02:33.045 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:02:33.220 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+17:02:33.225 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+17:02:33.598 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+17:02:33.628 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+17:02:34.041 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.847 seconds (JVM running for 10.628)
+17:06:14.547 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:06:14.547 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:06:14.554 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+17:06:15.104 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+17:06:15.104 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: java.lang.NullPointerException
+
+
+17:06:15.105 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+17:08:16.670 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:08:16.890 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+17:08:16.891 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:08:16.893 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+17:08:16.897 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+17:08:16.903 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+17:08:16.913 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:08:16.914 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:08:16.921 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:08:19.050 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+17:08:19.064 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 20116 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+17:08:19.065 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+17:08:19.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:08:19.987 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 15 JPA repository interfaces.
+17:08:20.565 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+17:08:20.576 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+17:08:20.576 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:08:20.577 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:08:20.706 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:08:20.706 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1585 ms
+17:08:20.876 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:08:20.922 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+17:08:21.058 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:08:21.148 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:08:22.573 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:08:22.643 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+17:08:24.115 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+17:08:24.147 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+17:08:24.168 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+17:08:24.202 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+17:08:24.225 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+17:08:24.248 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+17:08:24.298 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+17:08:24.315 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+17:08:24.333 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+17:08:24.345 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+17:08:24.360 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+17:08:24.376 [main] INFO  com.isfa.models.User - User no-args cons executing
+17:08:26.283 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:08:26.301 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:08:27.631 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:08:27.790 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+17:08:27.797 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+17:08:28.182 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+17:08:28.217 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+17:08:28.635 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.996 seconds (JVM running for 10.774)
+17:08:31.536 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:08:31.536 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:08:31.544 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+17:08:32.013 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+17:08:32.013 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: java.lang.NullPointerException
+
+
+17:08:32.014 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+17:11:12.230 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:11:12.465 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+17:11:12.466 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:11:12.469 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+17:11:12.477 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+17:11:12.503 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+17:11:12.515 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:11:12.518 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:11:12.524 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:11:14.837 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+17:11:14.843 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 10084 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+17:11:14.844 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+17:11:15.857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:11:15.962 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 15 JPA repository interfaces.
+17:11:16.631 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+17:11:16.644 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+17:11:16.645 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:11:16.645 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:11:16.788 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:11:16.788 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1882 ms
+17:11:16.979 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:11:17.027 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+17:11:17.186 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:11:17.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:11:18.881 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:11:18.916 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+17:11:19.810 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+17:11:19.829 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+17:11:19.846 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+17:11:19.866 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+17:11:19.876 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+17:11:19.892 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+17:11:19.920 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+17:11:19.929 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+17:11:19.944 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+17:11:19.953 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+17:11:19.961 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+17:11:19.972 [main] INFO  com.isfa.models.User - User no-args cons executing
+17:11:21.689 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:11:21.705 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:11:22.894 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:11:23.054 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+17:11:23.058 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+17:11:23.453 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+17:11:23.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+17:11:23.941 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.565 seconds (JVM running for 10.42)
+17:11:26.246 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:11:26.247 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:11:26.252 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+17:11:26.609 [http-nio-9000-exec-2] INFO  c.i.p.response.StoreDetailResponse - StoreDetailResponse convert() method executing
+17:11:26.610 [http-nio-9000-exec-2] INFO  c.i.p.response.StoreDetailResponse - StoreDetailResponse convert() method executing
+17:16:04.927 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:16:05.208 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+17:16:05.209 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:16:05.212 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+17:16:05.220 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+17:16:05.227 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+17:16:05.240 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:16:05.242 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:16:05.253 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:16:07.763 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+17:16:07.773 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 12860 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+17:16:07.775 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+17:16:08.801 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:16:08.909 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 15 JPA repository interfaces.
+17:16:09.566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+17:16:09.578 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+17:16:09.578 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:16:09.578 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:16:09.724 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:16:09.724 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1882 ms
+17:16:09.917 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:16:09.963 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+17:16:10.116 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:16:10.214 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:16:11.427 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:16:11.464 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+17:16:12.364 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+17:16:12.381 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+17:16:12.395 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+17:16:12.415 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+17:16:12.429 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+17:16:12.444 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+17:16:12.473 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+17:16:12.487 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+17:16:12.497 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+17:16:12.506 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+17:16:12.514 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+17:16:12.523 [main] INFO  com.isfa.models.User - User no-args cons executing
+17:16:14.828 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:16:14.845 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:16:16.076 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:16:16.230 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+17:16:16.237 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+17:16:16.613 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+17:16:16.642 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+17:16:17.039 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.745 seconds (JVM running for 10.84)
+17:16:20.957 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:16:20.958 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:16:20.963 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+17:16:21.646 [http-nio-9000-exec-2] INFO  c.i.p.response.StoreDetailResponse - StoreDetailResponse convert() method executing
+17:16:21.647 [http-nio-9000-exec-2] INFO  c.i.p.response.StoreDetailResponse - StoreDetailResponse convert() method executing
+17:20:55.251 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:20:55.521 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+17:20:55.522 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:20:55.524 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+17:20:55.531 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+17:20:55.538 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+17:20:55.548 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:20:55.549 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:20:55.560 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:43:17.271 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:43:17.277 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 10804 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:43:17.278 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:43:18.237 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:43:18.326 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 15 JPA repository interfaces.
+19:43:18.990 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:43:19.003 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:43:19.003 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:43:19.004 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:43:19.189 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:43:19.189 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1849 ms
+19:43:19.373 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:43:19.430 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:43:19.602 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:43:19.713 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:43:21.977 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:43:22.021 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:43:23.133 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:23.149 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:23.157 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:43:23.171 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:43:23.179 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:43:23.188 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:43:23.207 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:43:23.214 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:43:23.221 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:43:23.227 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:43:23.233 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:43:23.239 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:43:26.215 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:43:26.236 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:43:27.190 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:43:27.315 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:43:27.319 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:43:27.625 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:43:27.663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:43:27.915 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 11.008 seconds (JVM running for 11.684)
+19:43:34.516 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:43:34.516 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:43:34.521 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+19:43:34.590 [http-nio-9000-exec-1] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:43:35.374 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:35.375 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:35.375 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:35.376 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:35.377 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:43:35.736 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:35.739 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:35.740 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:35.741 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:35.741 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:43:35.748 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+19:43:35.749 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 5
+
+
+19:43:35.749 [http-nio-9000-exec-1] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+19:45:31.561 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:45:31.728 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:45:31.729 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:45:31.730 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:45:31.734 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:45:31.738 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:45:31.746 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:45:31.747 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:45:31.751 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:45:33.555 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:45:33.559 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 6964 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:45:33.560 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:45:34.228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:45:34.301 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 15 JPA repository interfaces.
+19:45:34.761 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:45:34.770 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:45:34.770 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:45:34.771 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:45:34.873 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:45:34.873 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1266 ms
+19:45:35.009 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:45:35.041 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:45:35.140 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:45:35.212 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:45:36.907 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:45:36.937 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:45:37.821 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:45:37.834 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:45:37.842 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:45:37.855 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:45:37.862 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:45:37.870 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:45:37.891 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:45:37.899 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:45:37.906 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:45:37.912 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:45:37.918 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:45:37.923 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:45:40.768 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:45:40.778 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:45:41.608 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:45:41.710 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:45:41.714 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:45:41.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:45:41.987 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:45:42.267 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.034 seconds (JVM running for 9.627)
+19:45:45.364 [http-nio-9000-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:45:45.365 [http-nio-9000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:45:45.372 [http-nio-9000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+19:45:45.439 [http-nio-9000-exec-5] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:45:46.263 [http-nio-9000-exec-5] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:45:46.266 [http-nio-9000-exec-5] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:45:46.267 [http-nio-9000-exec-5] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:45:46.267 [http-nio-9000-exec-5] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:45:46.268 [http-nio-9000-exec-5] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:18.576 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:47:18.761 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:47:18.761 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:47:18.763 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:47:18.767 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:47:18.770 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:47:18.778 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:47:18.780 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:47:18.787 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:47:20.563 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:47:20.572 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 5320 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:47:20.573 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:47:21.238 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:47:21.313 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 15 JPA repository interfaces.
+19:47:21.776 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:47:21.785 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:47:21.785 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:47:21.786 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:47:21.886 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:47:21.887 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+19:47:22.016 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:47:22.046 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:47:22.151 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:47:22.222 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:47:24.171 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:47:24.197 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:47:25.084 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:25.100 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:25.130 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:47:25.150 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:47:25.160 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:47:25.174 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:47:25.197 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:47:25.206 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:47:25.213 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:47:25.218 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:47:25.224 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:47:25.230 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:47:28.536 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:47:28.545 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:47:29.354 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:47:29.452 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:47:29.455 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:47:29.702 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:47:29.726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:47:30.001 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.786 seconds (JVM running for 10.393)
+19:47:34.229 [http-nio-9000-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:47:34.230 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:47:34.236 [http-nio-9000-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+19:47:34.301 [http-nio-9000-exec-4] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:47:34.996 [http-nio-9000-exec-4] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:34.997 [http-nio-9000-exec-4] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:34.998 [http-nio-9000-exec-4] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:34.999 [http-nio-9000-exec-4] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:35.000 [http-nio-9000-exec-4] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:47:35.391 [http-nio-9000-exec-4] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:35.394 [http-nio-9000-exec-4] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:35.395 [http-nio-9000-exec-4] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:35.395 [http-nio-9000-exec-4] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:35.396 [http-nio-9000-exec-4] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:47:35.405 [http-nio-9000-exec-4] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method executing
+19:47:35.406 [http-nio-9000-exec-4] INFO  c.i.Exception.GlobalExceptionHandler - Sorry, An error occured while processing the request: org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 5; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 5
+
+
+19:47:35.408 [http-nio-9000-exec-4] INFO  c.i.Exception.GlobalExceptionHandler - GlobalExceptionHandler handling exception method completed
+19:49:47.051 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:49:47.220 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:49:47.222 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:49:47.224 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:49:47.227 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:49:47.251 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:49:47.263 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:49:47.266 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:49:47.287 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:49:49.087 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:49:49.093 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 6160 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:49:49.094 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:49:49.740 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:49:49.816 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 15 JPA repository interfaces.
+19:49:50.269 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:49:50.279 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:49:50.279 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:49:50.280 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:49:50.382 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:49:50.382 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1248 ms
+19:49:50.507 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:49:50.541 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:49:50.650 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:49:50.721 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:49:53.055 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:49:53.082 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:49:53.993 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:49:54.011 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:49:54.021 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:49:54.037 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:49:54.046 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:49:54.057 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:49:54.078 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:49:54.085 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:49:54.094 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:49:54.100 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:49:54.107 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:49:54.112 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:49:57.214 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:49:57.234 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:49:59.265 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:49:59.402 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:49:59.405 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:49:59.694 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:49:59.718 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:50:00.011 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 11.263 seconds (JVM running for 11.898)
+19:50:03.458 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:50:03.458 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:50:03.461 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+19:50:03.490 [http-nio-9000-exec-2] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:50:04.175 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:50:04.175 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:50:04.176 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:50:04.176 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:50:04.177 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:50:04.683 [http-nio-9000-exec-2] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:51:30.662 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:51:30.863 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:51:30.863 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:51:30.865 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:51:30.869 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:51:30.873 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:51:30.882 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:51:30.883 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:51:30.889 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:51:32.663 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:51:32.672 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 12228 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:51:32.673 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:51:33.333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:51:33.436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 15 JPA repository interfaces.
+19:51:33.927 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:51:33.935 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:51:33.935 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:51:33.935 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:51:34.038 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:51:34.038 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1318 ms
+19:51:34.161 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:51:34.196 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:51:34.298 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:51:34.368 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:51:36.316 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:51:36.345 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:51:37.370 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:51:37.388 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:37.398 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:51:37.411 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:51:37.418 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:51:37.428 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:51:37.445 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:51:37.452 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:51:37.458 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:51:37.463 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:51:37.470 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:51:37.475 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:51:40.902 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:51:40.911 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:51:41.716 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:51:41.818 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:51:41.820 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:51:42.072 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:51:42.095 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:51:42.374 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 10.039 seconds (JVM running for 10.651)
+19:51:46.933 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:51:46.933 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:51:46.938 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+19:51:47.005 [http-nio-9000-exec-2] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:51:47.899 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:47.900 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:47.900 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:47.902 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:47.902 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:51:48.468 [http-nio-9000-exec-2] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:54:00.740 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:54:00.926 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:54:00.927 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:54:00.930 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:54:00.934 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:54:00.937 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:54:00.947 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:54:00.949 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:54:00.956 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:54:02.761 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:54:02.766 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 12924 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:54:02.767 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:54:03.416 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:54:03.504 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 15 JPA repository interfaces.
+19:54:03.971 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:54:03.978 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:54:03.980 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:54:03.980 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:54:04.090 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:54:04.091 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1282 ms
+19:54:04.215 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:54:04.249 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:54:04.356 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:54:04.428 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:54:06.438 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:54:06.470 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:54:07.464 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:54:07.481 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:07.492 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:54:07.506 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:54:07.515 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:54:07.526 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:54:07.548 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:54:07.557 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:54:07.564 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:54:07.571 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:54:07.577 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:07.582 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:54:10.704 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:54:10.715 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:54:11.552 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:54:11.658 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:54:11.663 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:54:11.921 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:54:11.943 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:54:12.217 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 9.772 seconds (JVM running for 10.402)
+19:54:15.146 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:54:15.146 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:54:15.151 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+19:54:15.226 [http-nio-9000-exec-2] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:54:16.015 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:16.016 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:16.017 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:16.017 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:16.018 [http-nio-9000-exec-2] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:54:16.457 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:17.259 [http-nio-9000-exec-2] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:54:17.666 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:54:18.792 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:19.508 [http-nio-9000-exec-2] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:54:19.917 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:54:20.739 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:21.457 [http-nio-9000-exec-2] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:54:22.579 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:23.811 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:54:24.845 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:54:25.959 [http-nio-9000-exec-2] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:54:27.406 [http-nio-9000-exec-2] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:57:14.429 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:57:14.610 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:57:14.611 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:57:14.613 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:57:14.617 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:57:14.635 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:57:14.642 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:57:14.643 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:57:14.650 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:57:16.428 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+19:57:16.435 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 8252 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+19:57:16.436 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+19:57:17.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:57:17.182 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 15 JPA repository interfaces.
+19:57:17.642 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+19:57:17.652 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+19:57:17.652 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:57:17.652 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+19:57:17.771 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:57:17.771 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
+19:57:17.917 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:57:17.952 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+19:57:18.052 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:57:18.128 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:57:20.382 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:57:20.412 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+19:57:21.279 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:57:21.317 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:21.327 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+19:57:21.342 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+19:57:21.351 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+19:57:21.364 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:57:21.384 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:57:21.391 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+19:57:21.401 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+19:57:21.406 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+19:57:21.413 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:21.421 [main] INFO  com.isfa.models.User - User no-args cons executing
+19:57:24.855 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:57:24.864 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:57:25.707 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:57:25.811 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+19:57:25.814 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+19:57:26.058 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+19:57:26.105 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+19:57:26.360 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 10.256 seconds (JVM running for 10.867)
+19:57:30.026 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:57:30.027 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:57:30.034 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+19:57:30.100 [http-nio-9000-exec-1] INFO  c.i.c.p.controller.ProductController - Product Controller Getting All Product executing
+19:57:30.967 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:30.968 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:30.969 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:30.970 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:30.970 [http-nio-9000-exec-1] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+19:57:31.373 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:32.225 [http-nio-9000-exec-1] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:57:32.635 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:57:33.453 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:34.179 [http-nio-9000-exec-1] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:57:34.796 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:57:35.819 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:36.556 [http-nio-9000-exec-1] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+19:57:37.876 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:39.394 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:57:40.217 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+19:57:41.339 [http-nio-9000-exec-1] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+19:57:42.273 [http-nio-9000-exec-1] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+19:58:32.554 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:58:32.726 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+19:58:32.727 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:58:32.728 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+19:58:32.735 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+19:58:32.758 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+19:58:32.770 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:58:32.772 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:58:32.779 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

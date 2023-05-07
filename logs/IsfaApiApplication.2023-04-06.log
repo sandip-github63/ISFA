@@ -1,0 +1,137 @@
+11:12:28.635 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
+11:12:28.649 [main] INFO  c.i.SpringBootSecurityJwtApplication - Starting SpringBootSecurityJwtApplication using Java 1.8.0_221 on bhavyakU-TKS with PID 13768 (D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1)\target\classes started by bhavya.singh in D:\ProjectWorkspaces\spring-boot-spring-security-jwt-authentication (1)\spring-boot-spring-security-jwt-authentication (1))
+11:12:28.650 [main] INFO  c.i.SpringBootSecurityJwtApplication - No active profile set, falling back to 1 default profile: "default"
+11:12:29.699 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:12:29.806 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 18 JPA repository interfaces.
+11:12:30.479 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+11:12:30.491 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+11:12:30.492 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:12:30.492 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+11:12:30.709 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:12:30.710 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2004 ms
+11:12:31.049 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:12:31.182 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+11:12:31.575 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:12:31.816 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:12:33.302 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:12:33.376 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+11:12:34.665 [main] INFO  c.i.p.entities.StockAssignment - StockAssignment no-args constructor executed
+11:12:35.143 [main] INFO  c.i.p.entities.StoreProductMapping - StoreProductMapping no-args constructor executed
+11:12:35.175 [main] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:35.208 [main] INFO  c.i.c.leave.entities.Icon - Icon no-args constructor executed
+11:12:35.229 [main] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:12:35.280 [main] INFO  c.i.c.promoter.entities.Category - Category no-args constructor executed
+11:12:35.329 [main] INFO  c.i.promoter.entities.StockBalance - StockBalance no-args constructor executed
+11:12:35.363 [main] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:12:35.385 [main] INFO  c.i.c.leave.entities.Color - Color no-args constructor executed
+11:12:35.399 [main] INFO  c.i.c.leave.entities.MasterLeave - MasterLeave no-args constructor executed
+11:12:35.414 [main] INFO  c.i.c.promoter.entities.Product - Product no-args constructor executed
+11:12:35.440 [main] INFO  com.isfa.models.User - User no-args cons executing
+11:12:37.863 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:12:38.090 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:12:40.281 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:12:40.559 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket api method executing
+11:12:40.562 [main] INFO  com.isfa.swagger.SwaggerConfig - SwaggerConfig docket apiInfo method executing
+11:12:40.851 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+11:12:40.889 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+11:12:41.238 [main] INFO  c.i.SpringBootSecurityJwtApplication - Started SpringBootSecurityJwtApplication in 12.94 seconds (JVM running for 13.627)
+11:12:51.413 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:12:51.413 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:12:51.418 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+11:12:51.448 [http-nio-9000-exec-1] INFO  c.i.l.c.LeaveBalanceInfoController - GetEmpLeaveDetailService Controller getEmpLeaveDetails() executing
+11:12:51.820 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.853 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.853 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.854 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.854 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.855 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.855 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.857 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.857 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.859 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.860 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.860 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.861 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.861 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.862 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.862 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.863 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.863 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:51.864 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:12:52.252 [http-nio-9000-exec-1] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:12:55.322 [http-nio-9000-exec-1] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:12:57.066 [http-nio-9000-exec-1] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:13:03.442 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.443 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.443 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.443 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.443 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.443 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.444 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.444 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.444 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.444 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:03.444 [http-nio-9000-exec-1] INFO  com.isfa.models.User - User no-args cons executing
+11:13:06.075 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.076 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.077 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.077 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.077 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.078 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.078 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.079 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.079 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.079 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.080 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:06.080 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:12.527 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:12.528 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:12.529 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:12.529 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:12.529 [http-nio-9000-exec-1] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:26.921 [http-nio-9000-exec-2] INFO  c.i.l.c.LeaveBalanceInfoController - GetEmpLeaveDetailService Controller getEmpLeaveDetails() executing
+11:13:27.167 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:13:27.168 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:13:27.168 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveBalanceInfo - LeaveBalanceInfo no-args constructor executed
+11:13:27.222 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:27.223 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:27.475 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:13:28.089 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:13:29.010 [http-nio-9000-exec-2] INFO  c.i.c.leave.entities.LeaveType - LeaveType no-args constructor executed
+11:13:30.342 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.343 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.343 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:30.344 [http-nio-9000-exec-2] INFO  com.isfa.models.User - User no-args cons executing
+11:13:33.413 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.414 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.415 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.415 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.415 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:33.415 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:39.147 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:39.149 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:39.149 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:39.150 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:13:39.150 [http-nio-9000-exec-2] INFO  c.i.leave.entities.LeaveRequestInfo - LeaveRequestInfo no-args constructor executed
+11:15:06.810 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+11:15:06.965 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9000"]
+11:15:06.965 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:15:06.967 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+11:15:06.971 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9000"]
+11:15:06.974 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9000"]
+11:15:06.982 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:15:06.984 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:15:06.993 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
